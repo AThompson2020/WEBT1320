@@ -1,0 +1,220 @@
+/* Global Styles*/
+body {
+    background-color: #8C0F0F;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Mobile Styles*/
+
+#container {
+    background-color: #0B161A;
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/psychos-in-love.jpg');
+    background-size: cover;
+    padding: 200px 0;
+}
+
+header h1 {
+    color: white;
+    text-shadow: 6px 6px 6px #400207;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: black;
+    color: rgba(199, 18, 18, 0.568);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #8C0F0F;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #8C0F0F;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: black;
+    text-shadow: 2px 2px 2px #400207;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    background-color: black;
+    color: rgba(199, 18, 18, 0.568);
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #8C0F0F;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer {
+    text-align: center;
+    color: black;
+}
+
+.single_col {
+    width: 88%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.passion_img {
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles*/
+
+@media(min-width: 768px) {
+    header {
+        padding: 300px;
+    }
+
+    header h1 {
+        font-size: 8em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    .col img {
+        width: 75%;
+        border-radius: 10px;
+        border: 4px solid black;
+    }
+
+    .single_col {
+        width: 95%;
+    }
+    
+}
+
+
+/* Desktop Styles*/
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid black;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    header h1 {
+        padding: 200px;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col img {
+        width: 80%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 4px solid black;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%
+    }
+
+    .passion {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+}
