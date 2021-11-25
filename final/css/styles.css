@@ -1,0 +1,241 @@
+body {
+    background-color: #78cce6;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: white;
+    text-shadow: 2px 2px 2px #2b829c;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Mobile Styles*/
+
+#container {
+    background-color: #c8d2e4;
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/snow.jpg');
+    background-size: cover;
+    padding: 200px 0;
+    font-family: 'Kaushan Script', cursive;
+   }
+
+header h1 {
+    color: rgb(188, 228, 248);
+    text-shadow: 6px 6px 6px #1a5b6e;
+    text-align: center;  
+    font-family: 'Kaushan Script', cursive;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #c9e2e9;
+    color: #7d8397;
+    height: 40px;
+    line-height: 40px;
+    text-shadow: 2px 2px 2px #82c1d4;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: #a5d9e9;
+    text-shadow: 2px 2px 2px white;
+}
+
+nav, section, aside, .col, footer {
+    background-color: #a5d9e9;
+    padding: 10px;
+    margin: 10px;
+    border: 4px solid #46729b;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px #336979;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.button {
+    display: block;
+    background-color: rgb(95, 185, 212);
+    color: white;
+    height: 40px;
+    width: 175px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #a5d9e9;
+    text-shadow: 2px 2px 2px rgb(75, 143, 182);
+}
+
+footer {
+    text-align: center;
+    color: teal;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.single_col {
+    width: 88%;
+    text-align: center;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.needs_img {
+    border: 4px solid white;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles*/
+
+@media(min-width: 768px) {
+    header {
+        padding: 300px;
+    }
+
+    header h1 {
+        font-size: 8em;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    .col img {
+        width: 75%;
+        border-radius: 10px;
+        border: 4px solid #18596d;
+    }
+
+    .single_col {
+        width: 95%;
+        text-align: center;
+    }
+    
+}
+
+
+/* Desktop Styles*/
+
+@media(min-width: 1024px) {
+    #container {
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid #17738f;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    header h1 {
+        padding: 200px;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .col img {
+        width: 90%;
+    }
+
+    .single_col {
+        width: 100%;
+        text-align: center;
+    }
+
+    table, tr, td {
+        border: 4px solid #18596d;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%
+    }
+
+    .needs {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+
+    .training {
+        display: none;
+    }
+
+    table, tr, td {
+        border: 4px solid #18596d;
+        padding: 30px;
+        margin: 35px;
+    }
+
+}
